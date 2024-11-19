@@ -35,7 +35,7 @@ export function Checkout() {
     return (
         <div className="containerForm">
             <div className="formImg">
-                <img src="../public/img/checkout1.png" alt="" />
+                <img src="./public/img/checkout1.png" alt="" />
             </div>
             <form action="" ref={formRef} className="formFather" onSubmit={handleSubmit(onSubmit)}>
                 <h1 className="formTittle">Ya casi es tuyo!</h1>
