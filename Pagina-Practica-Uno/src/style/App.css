@@ -1,0 +1,128 @@
+/* ESTILOS GENERALES */
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #C6DEC6;
+
+}
+
+/* NAVBAR */
+
+.nav {
+    box-sizing: border-box;
+   margin-top: 50px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 400;
+    background-color: #C6DEC6 !important;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.navContainer {
+    margin: auto;
+}
+
+
+.nav-link {
+    margin: 0px 80px 0px 80px;
+    color: rgb(119, 143, 110);
+    text-decoration: none;
+}
+
+
+
+.nav-link:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+
+.itemDrop {
+    margin: 10px 0px 10px 0px;
+
+}
+
+.dropdown-menu.show {
+
+    background-color: #C6DEC6;
+    border: 0px;
+    text-transform: uppercase;
+    margin: 0px 80px 0px 80px;
+}
+
+.dropdown-toggle::after {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+
+.dropdown-item:hover {
+    background-color: #C6DEC6;
+    transform: scale(1.1);
+    transition: transform 0.5s;
+
+}
+
+.categoriaPlanta {
+    margin: 0;
+    margin-left: 5px;
+}
+
+/* CARTICON */
+
+span {
+    font-size: 20px;
+}
+
+.iCart {
+    color: black;
+}
+
+/* OLA DE INICIO  */
+
+.svgHome {
+    position: absolute;
+    bottom: 0;
+
+}
+
+@media screen and (max-width: 768px) {
+.navContainer{
+  text-align: center;
+}
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .navContainer {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .categoriaPlanta {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .navContainer {
+        text-align: left;
+    }
+
+    .nav{
+        padding: 0;
+        margin: 20px;
+    }
+}

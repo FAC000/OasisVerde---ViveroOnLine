@@ -1,0 +1,675 @@
+/* ESTILOS CLASES */
+
+/* TITULO */
+
+.containerTitulo {
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.titulo {
+    color: #758173;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 180px;
+    letter-spacing: 5px;
+    margin-top: 180px;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+/* IMAGEN NAVBAR  */
+.imgIcon {
+    width: 100px;
+    height: 70px;
+}
+
+/* ITEM LIST CONTAINER  */
+
+.containerItemList {
+    width: 77%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+/* ITEM   */
+
+
+.contenedor {
+    display: inline-block;
+}
+
+.contenedorCard {
+    text-align: center;
+    border: 1px solid #C6DEC6;
+    border-radius: 10px;
+    background-color: #C5EFCB;
+    width: 300px;
+    height: 400px;
+    margin: 20px 30px;
+
+}
+
+.cardImg {
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+
+.tituloCard {
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #758173;
+    margin: auto;
+    padding: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    min-width: 200px;
+    height: 100px;
+}
+
+.cardPrecio {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #020402;
+    font-family: "Source Code Pro", monospace;
+}
+
+
+.cardComprar {
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 8px;
+    letter-spacing: 4px;
+    background-color: #7e9676;;
+    color: #C5EFCB;
+    border: 1px;
+    border-radius: 7px;
+    font-family: "Playfair Display", serif;
+    
+}
+
+/* ITEM DETAILS */
+
+.detailsBody {
+    margin-top: 150px;
+}
+
+.containerDetails {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.detailsMarca {
+    writing-mode: vertical-lr;
+    letter-spacing: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.detailsImg {
+    width: 400px;
+    height: 350px;
+    margin: 0px 10px 10px;
+    border: 5px solid #C5EFCB;
+    border-radius: 10px;
+}
+
+.containerDetailsInfo {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.containerDetailsInfo h1 {
+    color: #020402;
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 5px;
+
+}
+
+
+.containerDetailsInfo h2 {
+    color: #7e9676;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500;
+
+}
+
+.detailsPrecio {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: "Playfair Display", serif;
+
+}
+
+/* CONTADOR  */
+
+.counterContainer button {
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #7e9676;
+    color: #C5EFCB;
+    border: 0px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+
+}
+
+.detailsCounter {
+    margin-top: 80px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+
+.detailsCounter h3 {
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+
+.contador {
+    font-family: "Source Code Pro", monospace;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.butonReset {
+    margin-left: 10px;
+}
+
+.iconReset {
+    font-size: 16px;
+}
+
+
+.buttonaCarrito {
+    margin-left: 10px;
+    text-transform: uppercase;
+
+}
+
+
+/* CHECKOUT  */
+
+.formTittle {
+    font-family: "Playfair Display", serif;
+    margin: auto;
+    padding: 50px 0px 20px;
+    color: #020402;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 40px;
+    width: 400px;
+}
+
+.containerForm {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #c5efcb58;
+    width: 60%;
+    height: 500px;
+    border-radius: 15px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.formFather {
+
+    text-align: center;
+}
+
+.formInput {
+    width: 80%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #e0eae0;
+    border: 1px solid #A9C5A0;
+
+}
+
+::placeholder {
+    color: #758173;
+    padding-left: 10px;
+    letter-spacing: 5px;
+
+}
+
+
+.formSend {
+    width: 160px;
+    margin: auto;
+    margin-top: 40px;
+    color: #020402;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #e0eae0;
+    border: 1px solid #A9C5A0;
+}
+
+.formImg {
+    margin-left: 50px;
+}
+
+.formImg img {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+
+/* CART  */
+
+.cvContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.carritoVacio {
+
+    margin-top: 200px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.carritoP {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    color: #758173;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.cartFuncionalidades {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+
+.cartFuncionalidades p {
+    margin: 10px;
+    color: #000000;
+    align-self: center;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+
+}
+
+.cartFuncionalidades span {
+    font-weight: 700;
+}
+
+.cartFuncionalidades button {
+    margin: 10px;
+    color: #C5EFCB;
+    background-color: #7e9676;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+/* ITEMCART */
+
+.cartContainer {
+    margin: auto;
+    padding-top: 80px;
+    width: 50%;
+
+}
+
+.icContainer {
+    display: flex;
+    width: 100%;
+    margin: 50px;
+
+}
+
+.icImg img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.img-thumbnail {
+    background-color: #C5EFCB;
+}
+
+.icTitulo {
+    margin-left: 20px;
+    align-self: center;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 3px;
+    color: #020402;
+
+}
+
+.icCompra {
+    padding-top: 10px;
+    display: flex;
+}
+
+.icCompra button {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #00000000;
+    color: #000000;
+    border: 0px;
+    letter-spacing: 2px;
+
+}
+
+.countIc {
+    font-weight: 400;
+    font-size: 22px;
+
+    margin: 15px;
+}
+
+.icSubtotal {
+    color: #758173;
+    align-self: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+}
+
+.icSubtotal span {
+    color: #5b9249;
+}
+
+.icEliminar button {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #7e9676;
+    color: #C5EFCB;
+    border: 0px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    padding: 4px 15px;
+    margin: 10px 0px 0px 5px;
+}
+
+
+/* TOAST  */
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+
+    background-color: #758173;
+}
+
+
+svg {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+
+/* CONTACTO */
+
+.contactoContainer {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.contactoContainer h1 {
+    color: #020402;
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+.contactoIcons {
+
+    width: 80%;
+    
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 150px;
+}
+
+hr {
+    width: 500px;
+    margin: auto;
+
+}
+
+.aContact {
+    color: #546c4c;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.aContact:hover {
+
+    font-size: 42px;
+    transition: font-size 0.5s;
+    color: #5d5f5b;
+    text-shadow: 5px 10px 10px #A9C5A0;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1024px) {
+    .titulo {
+        font-size: 130px;
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    .containerItemList {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .icImg img {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .containerForm {
+        width: 90%;
+    }
+
+    .formInput {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .titulo {
+        font-size: 100px;
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    .containerDetailsInfo {
+        margin-left: 10;
+    }
+
+    .buttonaCarrito {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 170px;
+
+    }
+
+    .icContainer {
+        margin: 0px;
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    .icCompra {
+        display: block;
+    }
+
+    .icSubtotal {
+        margin-left: 0;
+
+    }
+
+    .cartContainer {
+        margin: auto;
+
+    }
+
+    .containerForm {
+        flex-direction: column;
+        background-color: #75817300;
+    }
+
+    .formSend {
+        display: block;
+
+    }
+
+    .formFather {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .titulo {
+        font-size: 60px;
+    }
+
+    .containerDetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailsMarca {
+        writing-mode: horizontal-tb;
+    }
+
+    .detailsImg {
+        width: 80%;
+        height: 60%;
+        margin: auto;
+    }
+
+    .containerDetailsInfo {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .containerDetailsInfo h3 {
+        text-align: center;
+    }
+
+    .counterContainer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .buttonaCarrito {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .cartContainer {
+        width: 100%;
+    }
+
+    .cartFuncionalidades {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formImg {
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .containerDetails {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .formFather {
+        margin-left: 50px;
+    }
+
+    .formTittle {
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    .formInput {
+        width: 100%;
+    }
+
+    .contactoIcons {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
