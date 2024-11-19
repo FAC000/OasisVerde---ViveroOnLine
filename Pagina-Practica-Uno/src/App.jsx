@@ -1,7 +1,7 @@
 import './style/App.css'
 import 'react-toastify/dist/ReactToastify.css';
 import { BasicExample } from './components/Navbar';
-import { Titulo } from './components/titulo';
+import { Titulo } from './components/Titulo';
 import { ItemListContainer } from './components/ItemListContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ItemDetailsContainer } from './components/ItemDetailsContainer';
