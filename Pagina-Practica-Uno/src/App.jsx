@@ -21,13 +21,13 @@ export const App = () => {
         <ToastContainer />
         <Routes>
 
-          <Route path='/' element={<Titulo />} />
-          <Route path='/productos' element={<ItemListContainer />} />
-          <Route path='/categoria/:cid' element={<ItemListContainer />} />
-          <Route path='/productos/:pid' element={<ItemDetailsContainer />} />
-          <Route path='/checkout' element={<Checkout />} />
-          <Route path='/Cart' element={<Cart />} />
-          <Route path='/contacto' element={<Contacto />} />
+          <Route path='./' element={<Titulo />} />
+          <Route path='./productos' element={<ItemListContainer />} />
+          <Route path='./categoria/:cid' element={<ItemListContainer />} />
+          <Route path='./productos/:pid' element={<ItemDetailsContainer />} />
+          <Route path='./checkout' element={<Checkout />} />
+          <Route path='./Cart' element={<Cart />} />
+          <Route path='./contacto' element={<Contacto />} />
 
         </Routes>
 

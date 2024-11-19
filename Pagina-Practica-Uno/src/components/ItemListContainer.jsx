@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { ItemMap } from "./ItemMap"
 import { useParams } from "react-router-dom"
-import { Item } from "./Item"
+
 
 
 export function ItemListContainer() {
