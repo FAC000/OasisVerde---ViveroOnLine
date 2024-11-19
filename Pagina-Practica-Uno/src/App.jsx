@@ -22,12 +22,12 @@ export const App = () => {
         <Routes>
 
           <Route path='/' element={<Titulo />} />
-          <Route path='../productos' element={<ItemListContainer />} />
-          <Route path='../categoria/:cid' element={<ItemListContainer />} />
-          <Route path='../productos/:pid' element={<ItemDetailsContainer />} />
-          <Route path='../checkout' element={<Checkout />} />
-          <Route path='../Cart' element={<Cart />} />
-          <Route path='../contacto' element={<Contacto />} />
+          <Route path='/Productos' element={<ItemListContainer />} />
+          <Route path='/Categoria/:cid' element={<ItemListContainer />} />
+          <Route path='/Productos/:pid' element={<ItemDetailsContainer />} />
+          <Route path='/Checkout' element={<Checkout />} />
+          <Route path='/Cart' element={<Cart />} />
+          <Route path='/Contacto' element={<Contacto />} />
 
         </Routes>
 
