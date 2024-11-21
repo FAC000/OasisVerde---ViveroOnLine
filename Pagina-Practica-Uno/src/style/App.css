@@ -122,10 +122,12 @@ span {
 }
 
 @media screen and (max-width: 320px) {
+   
     .navContainer {
-        text-align: left;
+       text-align: left;
     }
 
+   
     .nav{
         padding: 0;
         margin: 20px;
