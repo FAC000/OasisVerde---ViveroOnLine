@@ -1,9 +1,13 @@
 /* ESTILOS GENERALES */
 
 
-body {
-    padding: 0;
+html {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-color: #C6DEC6;
 
 }
@@ -93,6 +97,7 @@ span {
 .svgHome {
     position: absolute;
     bottom: 0;
+    right: 0;
 
 }
 

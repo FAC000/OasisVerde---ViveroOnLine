@@ -13,7 +13,7 @@ export function ItemCart({ productos }) {
             </div>
             
             <div className="icTitulo">
-                <h5 >{productos.nombre}</h5>
+                <h1 >{productos.nombre}</h1>
                 
             <div className="icCompra">
 
