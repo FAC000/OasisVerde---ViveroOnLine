@@ -16,13 +16,15 @@ body {
 
 .nav {
     box-sizing: border-box;
-   margin-top: 50px;
+  padding-top: 50px;
     font-family: "Source Code Pro", monospace;
     font-weight: 400;
-    background-color: #C6DEC6 !important;
+    background-color: #c6dec6 !important;
     font-size: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
+  position: fixed;
+  width: 100%;
 
 }
 
@@ -90,6 +92,9 @@ span {
 
 .iCart {
     color: black;
+    position: static;
+    
+    
 }
 
 /* OLA DE INICIO  */

@@ -9,8 +9,9 @@ import { Iconcart } from './Iconcart';
 export function BasicExample() {
   return (
     <Navbar expand="lg" className=" nav bg-body-tertiary">
+      
       <Container>
-    
+      <Iconcart />
         <Navbar.Toggle aria-controls=" basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" navContainer me-auto">
@@ -30,11 +31,11 @@ export function BasicExample() {
             <Link className="nav-link" id="RouterNavLink"  to="/contacto">Contacto</Link>
 
           </Nav>
-
+          
         </Navbar.Collapse>
-        <Iconcart />
+        
       </Container>
-
+      
     </Navbar>
 
   )

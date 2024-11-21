@@ -82,7 +82,7 @@
 
 .card {
     width: 80%;
-    padding: 1px;
+   
 }
 
 .cardPrecio {
@@ -703,7 +703,7 @@ hr {
     .titulo {
         font-size: 80px;
         line-height: 120px;
-        padding-top: 0px;
+        padding-top: 100px;
     }
 
     .containerDetails {
