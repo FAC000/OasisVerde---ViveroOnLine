@@ -542,7 +542,7 @@ hr {
         text-align: center;
         margin-right: 15px;
     }
-    
+
     .iCart {
         margin-right: 30px;
     }
@@ -552,6 +552,8 @@ hr {
         width: 80%;
         margin: auto;
         margin-top: 200px;
+        line-height: 120px;
+        padding-top: 100px;
     }
 
 
@@ -578,12 +580,14 @@ hr {
         margin-top: 20px;
     }
 
-
-
     .icImg img {
         width: 300px;
         height: 300px;
 
+    }
+
+    .icTitulo {
+        margin-left: 0px;
     }
 
     .icTitulo span {
@@ -679,7 +683,9 @@ hr {
 
 
     .titulo {
-        font-size: 60px;
+        font-size: 80px;
+        line-height: 120px;
+        padding-top: 100px;
     }
 
     .containerDetails {
