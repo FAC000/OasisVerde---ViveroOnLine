@@ -2,9 +2,7 @@
 
 /* TITULO */
 
-.svgHome{
-
-}
+.svgHome {}
 
 .containerTitulo {
 
@@ -359,7 +357,7 @@
 .icContainer {
     display: flex;
     width: 100%;
-    margin: 50px;
+    margin-top: 100px;
 
 }
 
@@ -374,7 +372,7 @@
 }
 
 .icTitulo {
-
+    margin-left: 10px;
     align-self: center;
     font-family: "Playfair Display", serif;
     letter-spacing: 3px;
@@ -540,6 +538,11 @@ hr {
 
 @media screen and (max-width: 768px) {
 
+    .categoriaPlanta {
+        text-align: center;
+        margin-right: 15px;
+    }
+    
     .iCart {
         margin-right: 30px;
     }
@@ -551,7 +554,7 @@ hr {
         margin-top: 200px;
     }
 
-  
+
     .containerDetailsInfo {
         margin-left: 10;
     }
@@ -564,22 +567,39 @@ hr {
     }
 
     .icContainer {
-        margin: 0px;
-        margin-top: 100px;
-        text-align: left;
+        flex-direction: column;
+        text-align: center;
     }
 
-    .icCompra {
-        display: block;
+    .icContainer h1 {
+        font-size: 25px;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
     }
 
-    .icSubtotal {
-        margin-left: 0;
+
+
+    .icImg img {
+        width: 300px;
+        height: 300px;
+
     }
 
-    .icSubtotal span {
-        display: block;
-        text-align: left;
+    .icTitulo span {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .cartFuncionalidades {
+
+        flex-direction: column;
+
+    }
+
+    .cartFuncionalidades a {
+        text-align: center;
+        flex-direction: column;
 
     }
 
@@ -634,6 +654,7 @@ hr {
     }
 
     .containerForm {
+        margin: auto;
         flex-direction: column;
         background-color: #75817300;
     }
@@ -645,11 +666,12 @@ hr {
 
     .formFather {
         padding-bottom: 50px;
+        
     }
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
 
     .iCart {
         margin-right: 0px;
@@ -730,27 +752,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 375px) {
 
-    .icContainer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .icContainer h1 {
-        font-size: 25px;
-
-        width: 90%;
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .icTitulo span {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-}
 
 
 @media screen and (max-width: 320px) {
@@ -781,6 +783,6 @@ hr {
         text-align: center;
     }
 
-    
+
 
 }

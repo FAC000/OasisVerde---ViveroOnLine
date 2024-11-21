@@ -108,7 +108,7 @@ span {
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
 
     .navContainer {
         text-align: center;
