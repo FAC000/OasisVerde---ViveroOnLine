@@ -29,11 +29,17 @@ export function Cart() {
                             <p> Resumen de la compra $ <span> {totalPrice()}</span></p>
 
                             <Link to={'/productos'} >
-                               <button>Seguir Comprando</button>
+                               <button>
+                                
+                                Seguir Comprando
+                                <hr className="compra" />
+                                </button>
                             </Link>
 
                             <Link to={'/checkout'}>
-                               <button>Finalizar Compra</button>
+                               <button>Finalizar Compra
+                               <hr className="compra" />
+                               </button>
                             </Link>
                         </div>
                     </div>
