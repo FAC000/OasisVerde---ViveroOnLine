@@ -319,8 +319,7 @@
 .cartFuncionalidades {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
-    padding-top: 20px;
+    margin-top: 30px;
 
 }
 
@@ -377,12 +376,11 @@
 .icImg img {
     width: 200px;
     height: 200px;
-
+    border: 2px solid #758173;
+    border-radius: 10px;
 }
 
-.img-thumbnail {
-    background-color: #C5EFCB;
-}
+
 
 .icTitulo {
     margin-left: 10px;
@@ -543,7 +541,7 @@ hr {
     .cForm {
         width: 90%;
         margin: 0;
-        margin-top: 150px;
+        
     }
 
     .formInput {
@@ -625,11 +623,14 @@ hr {
 
     .cartContainer {
         margin: auto;
-
+padding-top: 0;
+padding-top: 80px;
     }
 
     .containerDetails {
         flex-direction: column;
+        padding-top: 0;
+        padding-top: 150px;
 
     }
 
@@ -732,7 +733,7 @@ hr {
     }
 
     .containerDetailsInfo h1 {
-        width: 100%;
+        width: 80%;
         font-size: 25px;
     }
 
@@ -748,7 +749,7 @@ hr {
 
     .counterContainer {
         text-align: center;
-        padding-bottom: 100px;
+        
     }
 
     .buttonaCarrito {

@@ -9,7 +9,7 @@ export function ItemCart({ productos }) {
         <>
         <div className="icContainer">
             <div className="icImg">
-                <img src={`../img/${productos.img}`} alt={`Imagen de ${productos.nombre}`} className=" img-itemcart img-thumbnail"  />
+                <img src={`../img/${productos.img}`} alt={`Imagen de ${productos.nombre}`} className=" img-itemcart "  />
             </div>
             
             <div className="icTitulo">
