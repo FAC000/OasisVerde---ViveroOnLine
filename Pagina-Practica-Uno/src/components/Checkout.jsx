@@ -28,12 +28,10 @@ export function Checkout() {
 
     }
 
-
-
-
-
     return (
-        <div className="containerForm">
+        
+        <div className="cForm">
+           
             <div className="formImg">
                 <img src="../img/checkout.png" alt="" />
             </div>
@@ -44,7 +42,9 @@ export function Checkout() {
                 <input className="formInput" type="text" placeholder="EMAIL" {...register("EMAIL", { required:  true, max: 20, min: 10, pattern: /^\S+@\S+$/i })} />
                 <input className="formSend" type="submit" />
             </form>
-        </div>
+            </div>
+      
+        
     )
 }
 
