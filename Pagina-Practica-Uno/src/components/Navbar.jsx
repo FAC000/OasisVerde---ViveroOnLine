@@ -12,7 +12,7 @@ export function BasicExample() {
       
       <Container>
       <Iconcart />
-        <Navbar.Toggle aria-controls=" basic-navbar-nav" />
+        <Navbar.Toggle className='buttonNav' aria-controls=" basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" navContainer me-auto">
           
