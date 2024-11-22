@@ -27,7 +27,6 @@ body {
     width: 100%;
     padding-bottom: 30px;
     
-
 }
 
 
@@ -47,7 +46,9 @@ a {
     text-decoration: none;
 }
 
-
+.buttonNav {
+    border: 0px;
+}
 
 .nav-link:hover {
     transform: scale(1.1);

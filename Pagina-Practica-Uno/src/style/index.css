@@ -49,7 +49,7 @@
 
 .contenedorCard {
     text-align: center;
-    border: 1px solid #C6DEC6;
+    border: 2px solid #C5EFCB;
     border-radius: 10px;
     background-color: #7e9676;
     width: 300px;
@@ -63,6 +63,7 @@
     height: 200px;
     margin-top: 20px;
     border-radius: 5px;
+    border: 1px solid #C5EFCB;
 }
 
 
