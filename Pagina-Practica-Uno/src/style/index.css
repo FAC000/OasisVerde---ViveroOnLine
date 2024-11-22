@@ -170,6 +170,9 @@
 }
 
 /* CONTADOR  */
+.counterContainer{
+    padding-bottom: 50px;
+}
 
 .counterContainer button {
     cursor: pointer;
@@ -240,8 +243,8 @@
     display: flex;
 
     justify-self: center;
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 50px;
 
 
 }
@@ -363,7 +366,7 @@
     margin: auto;
     padding-top: 150px;
     width: 50%;
-
+padding-bottom: 30px;
 }
 
 .icContainer {
@@ -678,6 +681,8 @@ padding-top: 80px;
         margin: auto;
         flex-direction: column;
         background-color: #75817300;
+        padding-top: 0;
+        padding-top: 150px;
     }
 
     .formSend {
