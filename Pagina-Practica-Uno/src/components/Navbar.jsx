@@ -29,7 +29,7 @@ export function BasicExample() {
           
             <NavDropdown title="Plantas" id="basic-nav-dropdown">
 
-            <Link className=" categoriaPlanta nav-link" id="RouterNavLink"   to= '/categoria/exterior' onClick={esconder} > Exterior</Link>
+            <Link className=" categoriaPlanta nav-link" id="RouterNavLink"   to='/categoria/exterior' onClick={esconder} > Exterior</Link>
 
             <Link className=" categoriaPlanta nav-link" id="RouterNavLink"  to='/categoria/interior' onClick={esconder}>Interior</Link>
 
