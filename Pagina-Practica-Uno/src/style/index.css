@@ -171,7 +171,7 @@
 }
 
 /* CONTADOR  */
-.counterContainer{
+.counterContainer {
     padding-bottom: 50px;
 }
 
@@ -367,7 +367,7 @@
     margin: auto;
     padding-top: 150px;
     width: 50%;
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .icContainer {
@@ -545,7 +545,7 @@ hr {
     .cForm {
         width: 90%;
         margin: 0;
-        
+
     }
 
     .formInput {
@@ -627,8 +627,8 @@ hr {
 
     .cartContainer {
         margin: auto;
-padding-top: 0;
-padding-top: 80px;
+        padding-top: 0;
+        padding-top: 80px;
     }
 
     .containerDetails {
@@ -696,9 +696,15 @@ padding-top: 80px;
 
     }
 
-    .formImg{
+    .formImg {
         margin: auto;
     }
+
+    .contenedor {
+        margin-top: 20px;
+    }
+
+
 
 }
 
@@ -755,7 +761,7 @@ padding-top: 80px;
 
     .counterContainer {
         text-align: center;
-        
+
     }
 
     .buttonaCarrito {
@@ -774,7 +780,7 @@ padding-top: 80px;
         text-align: center;
     }
 
-    
+
 
     .formImg img {
 
@@ -789,6 +795,51 @@ padding-top: 80px;
 
     hr {
         width: 50%;
+    }
+
+    .containerItemList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .contenedorCard {
+        max-width: 150px;
+        height: 280px;
+        margin: 0;
+    }
+
+    .cardImg {
+        width: 80%;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    .tituloCard {
+        font-size: 12px;
+        padding: 0;
+       letter-spacing: 2px;
+       min-width: 150px;
+        
+       
+        margin-top: 10px;
+        height: 0px;
+        padding-bottom: 60px;
+        line-height: 30px;
+    }
+
+    .card {
+        visibility: hidden;
+    }
+
+    .cardPrecio {
+        font-size: 12px;
+    }
+
+    .cardComprar {
+        font-size: 10px;
+        font-weight: 700;
     }
 }
 
@@ -809,7 +860,7 @@ padding-top: 80px;
         height: 100%;
     }
 
-    .formFather{
+    .formFather {
         width: 80%;
         margin: auto;
     }
@@ -841,7 +892,11 @@ padding-top: 80px;
 
     }
 
-   
+    .navbar-toggler-icon {
+        margin-right: 50px;
+    }
+
+
 
 
 }
