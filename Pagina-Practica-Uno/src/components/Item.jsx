@@ -14,9 +14,12 @@ export function Item({ productos }) {
         <h2 className="tituloCard">{productos.nombre}</h2>
         <hr className="card" />
         <p className="cardPrecio">${productos.precio}</p>
+        
         <Link to={`/productos/${productos.id}`}> 
         <button className="cardComprar">COMPRAR</button>
-        </Link> 
+        
+        </Link>
+        
         </div>
       </div>
       

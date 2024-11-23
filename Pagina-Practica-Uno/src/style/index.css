@@ -33,7 +33,7 @@
 /* ITEM LIST CONTAINER  */
 
 .containerItemList {
-    width: 77%;
+    width: 70%;
     margin: auto;
     padding-bottom: 50px;
     padding-top: 100px;
@@ -45,6 +45,7 @@
 .contenedor {
     display: inline-block;
     margin-top: 100px;
+
 }
 
 .contenedorCard {
@@ -52,15 +53,15 @@
     border: 2px solid #C5EFCB;
     border-radius: 10px;
     background-color: #7e9676;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 380px;
     margin: 20px 30px;
 
 }
 
 .cardImg {
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid #C5EFCB;
@@ -70,24 +71,26 @@
 
 .tituloCard {
     font-family: "Playfair Display", serif;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    color: #C6DEC6;
+    color: #e0eae0;
     margin: auto;
-    padding: 20px;
+    margin-top: 20px;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 18px;
+    height: 60px;
 
-    height: 100px;
 }
 
 .card {
     width: 80%;
-
+    
+   margin-top: 10px;
 }
 
 .cardPrecio {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 10px;
     padding-top: 10px;
     font-weight: 600;
@@ -100,17 +103,18 @@
 .cardComprar {
     font-size: 15px;
     cursor: pointer;
-    padding: 4px 8px;
-    letter-spacing: 4px;
-    background-color: #7e9676;
-    ;
-    color: #31372f;
-
-    border: 1px;
-    border-radius: 7px;
+    padding: 1px 50px;
+    letter-spacing: 3px;
+    color: #C5EFCB;
+    font-weight: 500;
+    border-radius: 5px;
     font-family: "Source Code Pro", monospace;
-
+    background-color: #7e9676;
+    border: 1px solid #A9C5A0;
+    margin-top: 5px;
 }
+
+
 
 /* ITEM DETAILS */
 
@@ -821,12 +825,12 @@ hr {
     .containerItemList {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 15px;
         justify-content: center;
     }
 
     .contenedorCard {
-        max-width: 150px;
+        max-width: 175px;
         height: 280px;
         margin: 0;
     }
@@ -838,15 +842,15 @@ hr {
     }
 
     .tituloCard {
-        font-size: 12px;
+        font-size: 15px;
         padding: 0px;
-        letter-spacing: 2px;
+        letter-spacing: 0px;
         width: 80%;
         margin-top: 10px;
         height: 0px;
-        padding-bottom: 60px;
+        padding-bottom: 50px;
         line-height: 30px;
-        
+
     }
 
     .card {
@@ -854,12 +858,14 @@ hr {
     }
 
     .cardPrecio {
-        font-size: 12px;
+        font-size: 13px;
+        letter-spacing: 5px;
     }
 
     .cardComprar {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 700;
+        padding: 1px 25px;
     }
 }
 
