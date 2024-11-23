@@ -77,7 +77,7 @@
     padding: 20px;
     line-height: 35px;
     font-size: 20px;
-    min-width: 200px;
+
     height: 100px;
 }
 
@@ -300,11 +300,12 @@
 .cvContainer {
     width: 100%;
     text-align: center;
+    padding-top: 300px;
 }
 
 .carritoVacio {
 
-    margin-top: 200px;
+    margin-top: 0px;
     font-family: "Playfair Display", serif;
     letter-spacing: 10px;
     text-transform: uppercase;
@@ -726,12 +727,26 @@ hr {
         flex-direction: column;
     }
 
+    .icImg img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .icTitulo h1 {
+        font-size: 20px;
+    }
+
     .detailsMarca {
         writing-mode: horizontal-tb;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        font-size: 10px;
+        letter-spacing: 7px;
     }
 
     .detailsImg {
-        width: 80%;
+        width: 56%;
         height: 60%;
         margin: auto;
     }
@@ -746,18 +761,24 @@ hr {
 
     .containerDetailsInfo h1 {
         width: 80%;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .containerDetailsInfo h2 {
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .containerDetailsInfo h3 {
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
     }
+
+    .detailsCounter {
+        margin-top: 40px;
+    }
+
+
 
     .counterContainer {
         text-align: center;
@@ -800,7 +821,7 @@ hr {
     .containerItemList {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 20px;
         justify-content: center;
     }
 
@@ -818,15 +839,14 @@ hr {
 
     .tituloCard {
         font-size: 12px;
-        padding: 0;
-       letter-spacing: 2px;
-       min-width: 150px;
-        
-       
+        padding: 0px;
+        letter-spacing: 2px;
+        width: 80%;
         margin-top: 10px;
         height: 0px;
         padding-bottom: 60px;
         line-height: 30px;
+        
     }
 
     .card {
