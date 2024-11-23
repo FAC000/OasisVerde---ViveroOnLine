@@ -8,50 +8,45 @@ import { Iconcart } from './Iconcart';
 
 
 export function BasicExample() {
+  
+  const esconder = () =>{
+   const navegar = document.getElementById("basic-navbar-nav")
+   navegar.classList.remove ('show')
+   
+ }
 
-  const esconder = () => {
-    collapse.Toggle(".collapse:not(.show)")
-
-  }
-
-
-
+ 
+ 
   return (
     <Navbar expand="lg" className=" nav bg-body-tertiary">
-
+      
       <Container>
-        <Iconcart />
+      <Iconcart />
         <Navbar.Toggle className='buttonNav' aria-controls=" basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse  id="basic-navbar-nav">
           <Nav className=" navContainer me-auto">
-
-            <Link to={'/'}   onClick={esconder}>
-              <li className="nav-link" id="RouterNavLink" onClick={esconder}>Home</li>
-            </Link>
-
-
+          
+          
+            <Link className="nav-link" id="RouterNavLink" to={'/'} onClick={esconder}>Home</Link>
+          
             <NavDropdown title="Plantas" id="basic-nav-dropdown">
 
-              <Link to={'/categoria/exterior' }   onClick={esconder}>
-                <li className=" categoriaPlanta nav-link" id="RouterNavLink"> Exterior</li>
-              </Link>
+            <Link className=" categoriaPlanta nav-link" id="RouterNavLink"  to= {'/categoria/exterior'} onClick={esconder}  > Exterior</Link>
 
-              <Link to={'/categoria/interior'} onClick={esconder}>
-              <li className=" categoriaPlanta nav-link" id="RouterNavLink" >Interior</li>
-              </Link>
+            <Link className=" categoriaPlanta nav-link" id="RouterNavLink"  to='/categoria/interior' onClick={esconder} >Interior</Link>
+
 
             </NavDropdown>
 
-            <Link to={'/contacto'} onClick={esconder}>
-            <li className="nav-link" id="RouterNavLink" >Contacto</li>
-            </Link>
+
+            <Link className="nav-link" id="RouterNavLink"  to="/contacto" onClick={esconder}>Contacto</Link>
 
           </Nav>
-
+          
         </Navbar.Collapse>
-
+        
       </Container>
-
+      
     </Navbar>
 
   )
